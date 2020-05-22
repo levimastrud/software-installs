@@ -1,5 +1,5 @@
 # Installing and Running Node
-You should only have to install Homebrew and Node once in your time at Prime. Follow the instructions below.
+You should only have to install Homebrew and Node once in your time at EDA. Follow the instructions below.
 
 ## Installing Homebrew and Node.js (one-time)
 
@@ -14,7 +14,7 @@ Default method to tell Node to run a JavaScript file: `node /path/to/javascriptF
 
 ### Start Your Server
 
-Typically at Prime we use this to start a web server: `node server/app.js` or `node server/server.js`
+Typically at EDA we use this to start a web server: `node server/app.js` or `node server/server.js`
 
 ### Stopping the Server
 
