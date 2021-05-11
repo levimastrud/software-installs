@@ -222,3 +222,10 @@ $ psql
 Now in pgadmin the username is `postgres` and the password is what you put in. **Recommended**: Use something simple like `password` in case you check in your postgres password to your code, and wont feel bad about it being accidentally exposed in github (we'll use configuration files for this later, but accidents do happen).
 
 You should now be able to open pgadmin from your applications menu in Linux (it will open in a browser tab). Add a new server connection to `localhost` with the username and password you've set up (either postgres or create some other user with your username).
+
+## Postgres.app
+
+If homebrew isn't working you can install the Postgress.app stand-alone postgres tool. This works fine but your command line tools will be missing (`psql` wont work at the terminal), which means heroku push won't work either.
+
+Add the following path to your PATH in `.bashrc` or `.zshrc` (separated by a colon):
+`/Applications/Postgres.app/Contents/Versions/latest/bin`
